@@ -75,6 +75,7 @@
 <body>
 <table border="1">
     <%= str %>
+    <% str = ""; %>
 </table>
 </body>
 </html>

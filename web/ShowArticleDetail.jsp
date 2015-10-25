@@ -42,12 +42,12 @@
       <td><%= rs.getString("cont") %></td>
     </tr>
   </table>
+<a href="Reply.jsp?id=<%= rs.getInt("id") %>&rootid=<%= rs.getInt("rootid") %>">reply</a>
 <%
   }
   rs.close();
   stmt.close();
   conn.close();
 %>
-
 </body>
 </html>
